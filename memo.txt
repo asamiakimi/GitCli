@@ -1,0 +1,27 @@
+
+------------------------------------
+■ Git Bashを実行して
+
+git config --global user.name "asamiakimi"
+git config --global user.email "asami.akimi@mosaic.co.jp"
+
+ssh-keygen
+
+■ パスフレーズ
+mosaiC1995
+
+■ C:\Users\ASAMI_AKIMI\.ssh
+------------------------------------
+GIT HUB
+------------------------------------
+echo "# GitCli" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/asamiakimi/GitCli.git
+git push -u origin main
+
+------------------------------------
+
+mkdir gitcli
